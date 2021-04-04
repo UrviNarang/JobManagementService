@@ -1,0 +1,21 @@
+<jobSchedulerConfig>
+	
+	<job>
+	<jobname>SendEmail</jobname>
+	<priority>high</priority>
+	<schedule>17:20</schedule>
+	<execImmediate>no</execImmediate>
+	</job>
+	<job>
+	<jobname>IndexFileContent</jobname>
+	<priority>Medium</priority>
+	<schedule>17:20</schedule>
+	<execImmediate>yes</execImmediate>
+	</job>
+	<job>
+	<jobname>LoadToDWH</jobname>
+	<priority></priority>
+	<schedule>16:20</schedule>
+	<execImmediate>yes</execImmediate>
+	</job>
+</jobSchedulerConfig>
